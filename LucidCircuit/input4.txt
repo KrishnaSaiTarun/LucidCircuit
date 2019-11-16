@@ -1,0 +1,2 @@
+Nodes = 1
+N0 -> Type 1

@@ -1,0 +1,10 @@
+Nodes = 5
+N0 -> Type 0
+N1 -> Type 0
+N2 -> Type 0
+N3 -> Type 1
+N4 -> Type 0
+N0.z -> N3.a
+N1.z -> N3.b
+N2.z -> N3.c
+N3.z -> N4.a

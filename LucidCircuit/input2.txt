@@ -1,0 +1,14 @@
+Nodes = 7
+N0 -> Type 0
+N1 -> Type 0
+N2 -> Type 0
+N3 -> Type 0
+N4 -> Type 0
+N5 -> Type 1
+N6 -> Type 0
+N0.z -> N4.a
+N1.z -> N4.b
+N4.z -> N5.a
+N2.z -> N5.b
+N3.z -> N5.c
+N5.z -> N6.a

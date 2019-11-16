@@ -1,0 +1,7 @@
+Nodes = 3
+N0 -> Type 0
+N1 -> Type 0
+N2 -> Type 0
+N0.z -> N2.a
+N1.z -> N2.b
+

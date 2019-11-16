@@ -1,0 +1,20 @@
+Nodes = 9
+N0 -> Type 0
+N1 -> Type 0
+N2 -> Type 0
+N3 -> Type 0
+N4 -> Type 0
+N5 -> Type 0
+N6 -> Type 0
+N7 -> Type 0
+N8 -> Type 0
+N0.z -> N1.a
+N0.z -> N2.b
+N0.z -> N3.a
+N0.z -> N4.b
+N3.z -> N6.a
+N4.z -> N6.b
+N1.z -> N5.a
+N2.z -> N5.b
+N5.z -> N7.b
+N6.z -> N8.b

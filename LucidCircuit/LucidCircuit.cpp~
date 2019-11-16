@@ -380,7 +380,7 @@ class Graph: public Node
 	
 				else if(removedId >= 0){
 				
-					//cout << "The Removed Node is: " << removedId << endl;
+					cout << "The Removed Node is: " << removedId << endl;
 					flushOutputs();
 					flushDepth();
 					break;	
@@ -618,8 +618,7 @@ class Graph: public Node
 
 			type0notVisited.erase(Ina->NodeId);
 			type0notVisited.erase(Inb->NodeId);
-			
-			cout << "The removed nodes are: " << Ina->NodeId << " " << Inb->NodeId << " " << node->NodeId << endl;
+		
 			delete node;
 			delete Ina;
 			delete Inb;

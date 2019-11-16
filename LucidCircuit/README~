@@ -1,0 +1,35 @@
+ 		                                TASKS IMPLEMENTED
+
+	1. File Parser logic in seperate class - []
+	2. Geaph inhertis node and provides functionalities like bulid grpah and destroy graph
+	3. Node class has it ports defined 
+		- If there is no input to a port, then the input comes from itself
+		- It has the number of outgoing edges, the list of them, NodeId, type 
+	4. Part 1 is implemented using straight swap of type 1 nodes with 2 type 0 nodes
+	5. Part 2 has the following algorithm
+		-First find the critical path of the circuit
+		-Traverse on that path to find for any reduction possible as our aim is to reduce the height (or depth) of the graph
+		-Once a set of 3 rreplacable type 0 nodes are found, replace it and update the depths of the graph
+		-Use a greedy approach to always replace a set from the critical path in order to priorotize height reduction.
+		 
+
+
+                                              EXTRA TASKS I WANT TO IMPLEMENT
+
+	1. Use a factory design principle for node creation. 
+	2. Update the depths in a much efficient way (if the algorithm is correct)
+	3. Add extra error handling with the input file.
+	4. Use logger to implement easy debugging.
+
+
+	HOW TO COMPILE???
+	
+	Just type "make"
+	
+	HOW TO EXECUTE??
+	
+	Type:  ./output <filename>
+	
+	Exaple: ./output input1.txt
+	
+	
